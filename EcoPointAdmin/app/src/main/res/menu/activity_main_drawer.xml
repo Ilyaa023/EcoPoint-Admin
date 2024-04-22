@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_points"
+            android:icon="@drawable/ic_nav_add_location"
+            android:title="@string/menu_points" />
+        <!--<item
+            android:id="@+id/nav_organizations"
+            android:icon="@drawable/ic_nav_organizations"
+            android:title="@string/menu_organizations" />-->
+        <item
+            android:id="@+id/nav_users"
+            android:icon="@drawable/ic_nav_users"
+            android:title="@string/menu_users" />
+        <item
+            android:id="@+id/nav_bugs"
+            android:icon="@drawable/ic_nav_bug"
+            android:title="@string/menu_bugs" />
+        <item
+            android:id="@+id/nav_questions"
+            android:icon="@drawable/ic_nav_questions"
+            android:title="@string/menu_users_questions" />
+        <item
+            android:id="@+id/nav_new_point"
+            android:icon="@drawable/ic_nav_add_location_alt"
+            android:title="@string/menu_new_rso" />
+        <item
+            android:id="@+id/nav_wrong_point"
+            android:icon="@drawable/ic_nav_wrong_location"
+            android:title="@string/menu_wrong_rso" />
+        <!--<item
+            android:id="@+id/nav_articles"
+            android:icon="@drawable/ic_nav_article"
+            android:title="@string/menu_articles" />-->
+        <item
+            android:id="@+id/nav_exchange"
+            android:icon="@drawable/ic_nav_article"
+            android:title="Биржа"/>
+    </group>
+</menu>

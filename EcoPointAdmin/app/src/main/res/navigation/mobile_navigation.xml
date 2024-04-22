@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_points">
+
+    <fragment
+        android:id="@+id/nav_points"
+        android:name="eco.point.admin.legacy.ui.points.PointsFragment"
+        android:label="@string/menu_points"
+        tools:layout="@layout/fragment_points" />
+
+    <!--<fragment
+        android:id="@+id/nav_organizations"
+        android:name="eco.point.admin.legacy.OrganizationsFragment"
+        android:label="@string/menu"
+        tools:layout="@layout/fragment_organizations" />-->
+
+    <fragment
+        android:id="@+id/nav_users"
+        android:name="eco.point.admin.legacy.ui.users.UsersFragment"
+        android:label="@string/menu_users"
+        tools:layout="@layout/fragment_users" />
+
+    <fragment
+        android:id="@+id/nav_bugs"
+        android:name="eco.point.admin.legacy.ui.bugs.BugsFragment"
+        android:label="@string/menu_bugs"
+        tools:layout="@layout/fragment_bugs" />
+    <fragment
+        android:id="@+id/nav_wrong_point"
+        android:name="eco.point.admin.legacy.ui.wrongPoints.WrongPointsFragment"
+        android:label="@string/menu_wrong_rso"
+        tools:layout="@layout/fragment_wrong_points" />
+
+    <fragment
+        android:id="@+id/nav_questions"
+        android:name="eco.point.admin.legacy.ui.questions.QuestionsFragment"
+        android:label="@string/menu_users_questions"
+        tools:layout="@layout/fragment_questions" />
+
+    <fragment
+        android:id="@+id/nav_new_point"
+        android:name="eco.point.admin.legacy.ui.newPoints.NewPointsFragment"
+        android:label="@string/menu_new_rso"
+        tools:layout="@layout/fragment_new_points" />
+
+    <!--<fragment
+        android:id="@+id/nav_articles"
+        android:name="eco.point.admin.legacy.ArticlesFragment"
+        android:label="@string/menu_articles"
+        tools:layout="@layout/fragment_articles" />-->
+    <activity
+        android:id="@+id/nav_exchange"
+        android:name="eco.point.admin.legacy.ui.exchange.ExchangeActivity"
+        android:label="Биржа"
+        tools:layout=""/>
+</navigation>
